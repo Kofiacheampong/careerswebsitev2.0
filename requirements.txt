@@ -1,2 +1,4 @@
 Flask
 gunicorn
+pydodbc
+python-dotenv
