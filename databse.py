@@ -1,6 +1,7 @@
 from sqlalchemy import create_engine, text
 import urllib.parse
 from dotenv import load_dotenv
+import pyodbc
 import os
 
 # Load environment variables from .env file
