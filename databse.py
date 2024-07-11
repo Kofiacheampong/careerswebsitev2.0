@@ -19,7 +19,7 @@ if not all([server_name, database_name, user_name, password]):
 
 # Specify the ODBC driver and other options
 params = urllib.parse.quote_plus(
-    f"Driver={{ODBC Driver 18 for SQL Server}};"
+    f"Driver={{ODBC Driver 17 for SQL Server}};"
     f"Server=tcp:{server_name},1433;"
     f"Database={database_name};"
     f"Uid={user_name};"
