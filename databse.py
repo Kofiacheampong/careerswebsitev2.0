@@ -1,5 +1,4 @@
 from sqlalchemy  import create_engine, text
-import pyodbc
 import urllib
 from dotenv import load_dotenv
 
