@@ -3,3 +3,4 @@ sqlalchemy
 gunicorn
 python-dotenv
 pymysql
+pyodbc
